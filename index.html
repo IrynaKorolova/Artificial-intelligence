@@ -64,7 +64,9 @@
               mockups.
             </p>
             <a class="btn__primary" href="#">Get Started</a>
-            <a class="btn__video" href="#">Watch Video</a>
+            <a class="btn__video" href="#"
+              ><i class="fas fa-play btn__play-icon"></i>Watch Video</a
+            >
           </div>
           <div class="container__img">
             <img
@@ -118,50 +120,60 @@
       <section class="section__cards">
         <div class="container__cards">
           <div class="card">
-            <img class="card__logo first__logo" src="/images/welcome-1.png" />
-            <h3 class="card__header">
-              Naxly as the Winners in Global Agency Awards
-            </h3>
-            <p class="card__text">
-              Lorem ipsum is placeholder text commonly used in print, and
-              publishing industries for previewing layouts and visual mockups.
-            </p>
+            <div class="card__inner">
+              <img class="card__logo first__logo" src="/images/welcome-1.png" />
+              <h3 class="card__header">
+                Naxly as the Winners in Global Agency Awards
+              </h3>
+              <p class="card__text">
+                Lorem ipsum is placeholder text commonly used in print, and
+                publishing industries for previewing layouts and visual mockups.
+              </p>
+            </div>
           </div>
           <div class="card">
-            <img class="card__logo" src="/images/welcome-2.png" />
-            <h3 class="card__header">Global Experience in Agency Awards</h3>
-            <p class="card__text">
-              Lorem ipsum is placeholder text commonly used in print, and
-              publishing industries for previewing layouts and visual mockups.
-            </p>
+            <div class="card__inner">
+              <img class="card__logo" src="/images/welcome-2.png" />
+              <h3 class="card__header">Global Experience in Agency Awards</h3>
+              <p class="card__text">
+                Lorem ipsum is placeholder text commonly used in print, and
+                publishing industries for previewing layouts and visual mockups.
+              </p>
+            </div>
           </div>
           <div class="card">
-            <img class="card__logo" src="/images/welcome-3.png" />
-            <h3 class="card__header">Expert Prespective Agency Awards</h3>
-            <p class="card__text">
-              Lorem ipsum is placeholder text commonly used in print, and
-              publishing industries for previewing layouts and visual mockups.
-            </p>
+            <div class="card__inner">
+              <img class="card__logo" src="/images/welcome-3.png" />
+              <h3 class="card__header">Expert Prespective Agency Awards</h3>
+              <p class="card__text">
+                Lorem ipsum is placeholder text commonly used in print, and
+                publishing industries for previewing layouts and visual mockups.
+              </p>
+            </div>
           </div>
           <div class="card">
-            <img class="card__logo" src="/images/welcome-4.png" />
-            <h3 class="card__header">
-              Business Prespective Global Agency Awards
-            </h3>
-            <p class="card__text">
-              Lorem ipsum is placeholder text commonly used in print, and
-              publishing industries for previewing layouts and visual mockups.
-            </p>
+            <div class="card__inner">
+              <img class="card__logo" src="/images/welcome-4.png" />
+              <h3 class="card__header">
+                Business Prespective Global Agency Awards
+              </h3>
+              <p class="card__text">
+                Lorem ipsum is placeholder text commonly used in print, and
+                publishing industries for previewing layouts and visual mockups.
+              </p>
+            </div>
           </div>
           <div class="card">
-            <img class="card__logo" src="/images/welcome-5.png" />
-            <h3 class="card__header">
-              Value for Results in Global Agency Awards
-            </h3>
-            <p class="card__text">
-              Lorem ipsum is placeholder text commonly used in print, and
-              publishing industries for previewing layouts and visual mockups.
-            </p>
+            <div class="card__inner">
+              <img class="card__logo" src="/images/welcome-5.png" />
+              <h3 class="card__header">
+                Value for Results in Global Agency Awards
+              </h3>
+              <p class="card__text">
+                Lorem ipsum is placeholder text commonly used in print, and
+                publishing industries for previewing layouts and visual mockups.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -203,8 +215,9 @@
       </section>
       <!--Clients review section end -->
     </main>
+    <!--Main section end -->
     <footer class="footer">
-      <div class="container main__container">
+      <div class="container main__container footer__container">
         <address class="footer__adress">
           <img
             class="header__logo-pic"
@@ -216,14 +229,20 @@
             Lorem ipsum is placeholder text commonly used in the graphic, print,
             and layouts and visual mockups.
           </p>
-          <a class="footer__link" href="mailto:Company@gmail.com.com"
-            >Company@gmail.com.com</a
+          <a
+            class="footer__link link__colored"
+            href="mailto:Company@gmail.com.com"
+            ><i class="far fa-envelope adress__logo"></i>Company@gmail.com</a
           >
-          <a class="footer__link" href="tel:+064332-1233"
-            >Phone: (064) 332-1233</a
+          <a class="footer__link link__colored" href="tel:+064332-1233"
+            ><i class="fas fa-phone-volume adress__logo"></i>Phone: (064)
+            332-1233</a
           >
-          <a class="footer__link" href="address:450 Wall Street, USA, New York"
-            >450 Wall Street, USA, New York</a
+          <a
+            class="footer__link link__colored"
+            href="450 Wall Street, USA, New York"
+            ><i class="fas fa-map-marker-alt adress__logo"></i>450 Wall Street,
+            USA, New York</a
           >
         </address>
 
@@ -305,24 +324,34 @@
             Lorem ipsum is placeholder text commonly used in the graphic, print,
             and layouts and visual mockups.
           </p>
-          <a class="footer__link" href="mailto:Company@gmail.com.com"
+          <a
+            class="footer__link link__colored"
+            href="mailto:Company@gmail.com.com"
             >www.company.com</a
           >
-          <nav>
-            <li>
-              <a class="footer__link" href="#"
-                ><i class="fab fa-facebook-f footer-icon"></i
-              ></a>
-              <a class="footer__link" href="#"
-                ><i class="fab fa-linkedin-in footer-icon"></i
-              ></a>
-              <a class="footer__link" href="#"
-                ><i class="fab fa-twitter footer-icon"></i
-              ></a>
-            </li>
-          </nav>
+          <div class="footer__social">
+            <a class="footer__link" href="#"
+              ><i class="fab fa-facebook-f footer__icon"></i
+            ></a>
+            <a class="footer__link" href="#"
+              ><i class="fab fa-instagram footer__icon"></i
+            ></a>
+            <a class="footer__link" href="#"
+              ><i class="fab fa-twitter footer__icon"></i
+            ></a>
+            <a class="footer__link" href="#"
+              ><i class="fab fa-linkedin-in footer__icon"></i
+            ></a>
+            <a class="footer__link" href="#"
+              ><i class="fab fa-youtube-square footer__icon"></i
+            ></a>
+          </div>
+          <a class="footer__globe-icon" href="#"
+            ><i class="fas fa-globe-americas"></i>English</a
+          >
         </div>
       </div>
     </footer>
+    <!--Footer end -->
   </body>
 </html>
