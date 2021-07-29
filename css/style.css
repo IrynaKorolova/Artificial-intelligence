@@ -623,7 +623,6 @@ button {
   margin-bottom: 29px;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer__link {
   text-decoration: none;
   font-size: 14px;
@@ -667,7 +666,7 @@ button {
   margin-top: 5px;
 }
 .footer__icon {
-  margin-right: 15px;
+  margin-right: 25px;
   font-size: 18px;
   width: 15px;
   text-align: center;
@@ -832,7 +831,7 @@ button {
   }
   /*----- Subsection ------*/
   .sub-section {
-    padding: 40px 0 40px;
+    padding: 50px 0 40px;
   }
   /*----- Section with Cards ------*/
   .section__cards {
@@ -850,8 +849,8 @@ button {
 @media (max-width: 575.98px) {
   .container {
     width: 100%;
+    padding: 0 15px;
   }
-
   /*=========== Header & Nav ==========*/
   .header__container {
     justify-content: center;
@@ -859,6 +858,9 @@ button {
   .header__link {
     font-size: 15px;
     padding: 12px;
+  }
+  .header__logo-link {
+    font-size: 20px;
   }
   .header__list {
     display: flex;
@@ -874,7 +876,7 @@ button {
     margin-bottom: 55px;
   }
   .main__img {
-    width: 80%;
+    width: 90%;
     align-self: center;
   }
   .main__intro {
@@ -906,27 +908,47 @@ button {
     margin-top: 20px;
   }
   .sub-section__img {
-    width: 80%;
+    width: 90%;
   }
   .section__link {
     margin-top: 30px;
   }
+  /*----- Section with Cards ------*/
+  .card {
+    width: 90%;
+  }
+  .card__header {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  .card__text {
+    margin-top: 15px;
+    font-size: 14px;
+  }
   /*----- Clients review section ------*/
   .clients__container {
     flex-direction: column;
+  }
+  .clients__title {
+    font-size: 20px;
   }
   .clients__text {
     width: 90%;
     margin: 0 0 35px;
   }
   .clients__section-img {
-    width: 80%;
+    width: 90%;
   }
   /*------- Footer --------*/
-  .footer__text {
-    width: 250px;
+  .footer {
+    padding: 50px 0 20px;
   }
   .footer__header {
+    margin-top: 40px;
     font-size: 13px;
+  }
+  .link__colored,
+  .footer__link {
+    font-size: 12px;
   }
 }
