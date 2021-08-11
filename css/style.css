@@ -664,13 +664,14 @@ button {
 .footer__social {
   display: flex;
   margin-top: 5px;
+  justify-content: space-between;
+}
+.fab.fa-facebook-f {
+  padding-left: 0;
 }
 .footer__icon {
-  margin-right: 25px;
-  font-size: 18px;
-  width: 15px;
-  text-align: center;
-  padding: 13px 13px 13px 0;
+  font-size: 20px;
+  padding: 14px 14px;
   transition: 0.3s;
 }
 .footer__icon:hover {
@@ -770,17 +771,12 @@ button {
     max-width: 720px;
   }
   /*=========== Buttons ==========*/
-  .btn__row {
-    display: inline-flex;
-  }
   .btn__primary,
   .btn__video {
-    padding: 0;
+    padding: 12px;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
-    width: 130px;
-    height: 55px;
+    font-size: 12px;
   }
   .section__link,
   .btn__login {
@@ -828,6 +824,15 @@ button {
   .main__logo {
     margin-top: 95px;
     padding-bottom: 60px;
+  }
+  .logo-container {
+    flex-wrap: wrap;
+  }
+  .main__logo-item {
+    width: 40%;
+  }
+  .logo-container > :nth-child(n + 3) {
+    margin-top: 25px;
   }
   /*----- Subsection ------*/
   .sub-section {
@@ -891,6 +896,11 @@ button {
   }
   .main__text {
     font-size: 14px;
+  }
+  .btn__primary,
+  .btn__video {
+    padding: 11px;
+    font-size: 11px;
   }
   /*----- Subsection ------*/
   .sub-section__container {
